@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 export const StatisticsWrapper = styled.section`
   margin: 130px auto;
   background-color: #fff;
-  width: 40%;
+  width: 60%;
   text-align: center;
   box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
     rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
@@ -33,8 +33,8 @@ export const StatList = styled.ul`
   & li {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
-    padding: 30px;
+    margin-bottom: 10px;  
+    padding: 30px; 
     border-radius: 1220px;
     & span {
       margin-top: 15px;
