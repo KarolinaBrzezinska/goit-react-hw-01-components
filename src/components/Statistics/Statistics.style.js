@@ -35,7 +35,6 @@ export const StatList = styled.ul`
     flex-direction: column;
     margin-bottom: 10px;
     padding: 30px;
-    background-color: #ffd913;
     border-radius: 1220px;
     & span {
       margin-top: 15px;
