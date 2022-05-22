@@ -14,7 +14,7 @@ export const ProfileWrapper = styled.div`
     rgba(240, 46, 170, 0.05) 25px 25px;
   transition: all 0.6s linear;
   &:hover {
-    transform: scale(1.2) rotate(-360deg) translate(-4px, 0px);
+    transform: scale(1.2);
   }
 `;
 
