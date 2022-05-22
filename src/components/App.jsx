@@ -1,12 +1,12 @@
-import user from './Profile/user';
-import data from './Statistics/data';
-import transactions from './TransactionHistory/transactions.json';
-import friendsJson from './FriendsList/friends';
+// import user from './Profile/user';
+// import data from './Statistics/data';
+// import transactions from './TransactionHistory/transactions.json';
+// import friendsJson from './FriendsList/friends';
 
-import { Profile } from './Profile/Profile';
-import { Statistics } from './Statistics/Statistics';
-import { FriendsList } from './FriendsList/FriendsList.js';
-import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+// import { Profile } from './Profile/Profile';
+// import { Statistics } from './Statistics/Statistics';
+// import { FriendsList } from './FriendsList/FriendsList.js';
+// import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 export const App = () => {
   return (
     <div
@@ -18,8 +18,8 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
       }}
-    >
-      <Profile
+    > TEST
+      {/* <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
@@ -29,7 +29,7 @@ export const App = () => {
 
       <Statistics title="Upload stats" stats={data}></Statistics>
       <FriendsList friends={friendsJson}></FriendsList>
-      <TransactionHistory items={transactions}></TransactionHistory>
+      <TransactionHistory items={transactions}></TransactionHistory> */}
     </div>
   );
 };
