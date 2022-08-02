@@ -1,6 +1,5 @@
 import {
   FriendsListWrapper,
-  // FriendsListTag,
   FriendListItem,
   Image,
   Status,
